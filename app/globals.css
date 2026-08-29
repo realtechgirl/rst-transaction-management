@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+:root { --ink:#17332c; --cream:#f7f4ed; --sage:#dbe8df; --gold:#bb8a45; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--cream); color:#25322e; font-family:Arial,Helvetica,sans-serif; }
+button,input,select,textarea { font:inherit; }
+.field { display:grid; gap:.35rem; }
+.field label { font-size:.78rem; font-weight:700; color:#50635c; text-transform:uppercase; letter-spacing:.04em; }
+.field input,.field select,.field textarea { width:100%; border:1px solid #c9d2cd; border-radius:.55rem; background:white; padding:.7rem .75rem; }
+.field input:focus,.field select:focus,.field textarea:focus { outline:2px solid #9bbdad; border-color:transparent; }
